@@ -22,6 +22,9 @@
                  insert backgrounds and other images into the page. Balance
                  image quality with file size to achieve the best user
                  experience. -->
+            <video width="320" height="240" controls loop>
+                <source src="media/video/flying_monkey_loop.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"> 
+           </video>  
             <h1>Monkaa</h1>
             <p class="subtitle">An open source short film</p>
             <nav>
@@ -52,7 +55,11 @@
             <h2>Watch</h2>
             <!-- TODO: Embed the .webm and .mp4 video with full controls for a
                  convenient and attractive video viewing experience. -->
-
+            <video controls poster="media/video/video_poster.png">
+                <source src="media/video/monkaa_1080p.mp4" type="video/mp4">
+                <source src="media/video/monkaa_1080p.webm" type="video/webm">
+            </video>  
+              
             <!-- TODO: Style an elegant download link to download the video. -->
             <h3>Download the video</h3>
             <p>
@@ -70,7 +77,9 @@
 
             <!-- TODO: Style an elegant download link to download the video. -->
             <p>
-                <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>
+                <!--<a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>-->
+                <audio controls><source src="media/audio/monkaa_soundtrack.mp3" type="audio/mpeg"></audio>
+                  
             </p>
         </section>
 
