@@ -10,8 +10,11 @@ html {
 body {
     margin: 0;
 }
-header{
+/*header{
     
+    <video width="65%" height="25%" autoplay loop>
+                <source src="media/video/flying_monkey_loop.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"> 
+           </video>  
     /*min-height: 400px;
     background-image: url('../img/monkaa_title.jpg');
     background-repeat: no-repeat;
@@ -22,9 +25,13 @@ header ul {
     list-style-type: none;
     padding: 0;
 }
- 
+
+h1 nav li footer{
+      display: inline;
+}
+
 #social {
-    background: pink;
+    background: blue;
     position: absolute;
     top: 50px;
     right: 0px;
