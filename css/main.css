@@ -35,13 +35,49 @@ h1, nav, li, footer{
     display: inline;
     list-style-type: none;
 }
-.subtitle {
+ .subtitle    {
   
+    background-color: #6495ED;
+    height: 50px;
+    width:  500px;
+    padding 75px;
+    border: 0.2rem solid #222930;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1 {
   
+    background-color: #6495ED;
+    height: 50px;
+    width:  150px;
+    padding 75px;
+    border-top: 0.2rem inset #222930;
+    border-radius: .25rem;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+p.subtitle {
+  
+    background-color: #6495ED;
+    height: 50px;
+    width:  250px;
+    padding 75px;
+    border-bottom: 0.2rem outset #222930;
+    border-radius: .25rem;
+    position: absolute;
+    top: 200px;
+    left: 0;
   
 }
+  
+
 .main-nav {
-    background-color: #DDDDDD;
+    background-color: #6495ED;
     height: 50px;
     width:  175px;
     padding 75px;
@@ -76,7 +112,7 @@ h1, nav, li, footer{
   
 .weybec-people p{
   
- font-size: 125%;
+    font-size: 125%;
     background-color: #DDDDDD;
     color: #222930;
     height: 100px;
@@ -97,8 +133,11 @@ h1, nav, li, footer{
     position: absolute;
     top: 50px;
     right: 0px;
-    width: 25px;
+    width: 50px;
     transition: 1s width;
+    padding 25px;
+    border: 0.2rem solid #222930;
+    border-radius: 1rem;
 }
 #social:hover {
     width: 250px;
