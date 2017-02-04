@@ -6,7 +6,7 @@
  *****************************************************************************/
 html {
     padding: 0; 
-    
+    background-color: #708090;
     color: #222930;
     font-family: Georgia;
     font-size: 115%;
@@ -26,40 +26,79 @@ body {
     background-position: center center;
     background-size: cover;*/
 }
-header ul {
+header, ul {
     list-style-type: none;
     padding: 0;
 }
 
-h1 nav li footer{
-      display: inline;
-       list-style-type: none;
+h1, nav, li, footer{
+    display: inline;
+    list-style-type: none;
+}
+.subtitle {
+  
+  
+  
+}
+.main-nav {
+    background-color: #DDDDDD;
+    height: 50px;
+    width:  175px;
+    padding 75px;
+    border: 0.2rem solid #222930;
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.lead  {
-   
+.lead {
+    font-size: 125%;
+    background-color: #DDDDDD;
+    color: #222930;
     height: 100px;
-    width:  700px;
-    padding 10px;
-    border: 2px;
-    
+    width:  1000px;
+    padding 75px;
+    border: 0.2rem solid #222930;
+    border-radius: 1rem;
+    margin: 25px;
 }
+
 
 .weybec-people img{
-      width: 200px;
-      height: 200px; 
       
-      margin: 1rem;
-      border-radius: 1rem;
+      width: 300px;
+      height: 300px; 
+      margin-top: 5rem;
+      margin-left: 50px;
       border: 0.2rem solid #222930;
 }
+  
+.weybec-people p{
+  
+ font-size: 125%;
+    background-color: #DDDDDD;
+    color: #222930;
+    height: 100px;
+    width:  1000px;
+    padding 75px;
+    border: 0.2rem solid #222930;
+    border-radius: 1rem;
+    margin: 25px;
+  
+}
+    
+  
+   
+  
+
 #social {
-    background: blue;
+    background: #DDDDDD;
     position: absolute;
     top: 50px;
     right: 0px;
     width: 25px;
-    transition: 2s width;
+    transition: 1s width;
 }
 #social:hover {
     width: 250px;
@@ -73,4 +112,23 @@ h1 nav li footer{
     margin: 0;
     padding: 0;
     
+}
+
+a:link {
+      color: #8FBC8F;
+}
+
+/* visited link */
+a:visited {
+      color: rgb(128, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+      color: #FF7F50;
+}
+
+/* selected link */
+a:active {
+      color: #DDDDDD;
 }
