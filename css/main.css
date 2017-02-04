@@ -5,7 +5,12 @@
  * Site Styles
  *****************************************************************************/
 html {
-    padding: 0;   
+    padding: 0; 
+    
+    color: #222930;
+    font-family: Georgia;
+    font-size: 115%;
+    
 }
 body {
     margin: 0;
@@ -28,8 +33,26 @@ header ul {
 
 h1 nav li footer{
       display: inline;
+       list-style-type: none;
 }
 
+.lead  {
+   
+    height: 100px;
+    width:  700px;
+    padding 10px;
+    border: 2px;
+    
+}
+
+.weybec-people img{
+      width: 200px;
+      height: 200px; 
+      
+      margin: 1rem;
+      border-radius: 1rem;
+      border: 0.2rem solid #222930;
+}
 #social {
     background: blue;
     position: absolute;
