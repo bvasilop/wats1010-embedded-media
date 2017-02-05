@@ -6,7 +6,7 @@
  *****************************************************************************/
 html {
     padding: 0; 
-    background-color: #708090;
+    background-color: black;
     color: #222930;
     font-family: Georgia;
     font-size: 115%;
@@ -15,79 +15,155 @@ html {
 body {
     margin: 0;
 }
-/*header{
-    
-    <video width="65%" height="25%" autoplay loop>
-                <source src="media/video/flying_monkey_loop.mp4" type="video/mp4; codecs=avc1.42E01E,mp4a.40.2"> 
-           </video>  
-    /*min-height: 400px;
-    background-image: url('../img/monkaa_title.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;*/
-}
-header, ul {
-    list-style-type: none;
-    padding: 0;
+
+/**** header main nav****/
+video {
+      margin-top:10px;
+      margin-left: 350px;
+      width:55%;
+      height:45%;   
 }
 
-h1, nav, li, footer{
-    display: inline;
-    list-style-type: none;
-}
- .subtitle    {
+.main-nav a{
+      text-transform: uppercase;
   
-    background-color: #6495ED;
-    height: 50px;
-    width:  500px;
-    padding 75px;
-    border: 0.2rem solid #222930;
-    border-radius: 1rem;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
+.main-nav li{
+  
+      display: inline-block;
+      position: relative;
+      list-style-type: none;
+      padding-right: 20px;
+}
+
+header {
+      z-index: -1;
+}
+
+ 
 h1 {
-  
-    background-color: #6495ED;
-    height: 50px;
-    width:  150px;
-    padding 75px;
-    border-top: 0.2rem inset #222930;
-    border-radius: .25rem;
-    position: absolute;
-    top: 150px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    
+padding-top: 100px;
+    text-align: center;
+    position: fixed;
+    margin-right: auto;
+    margin left:50px;
+    right: 0;
     left: 0;
+    margin-bottom:10px;
 }
 
-p.subtitle {
+h2{
   
+  text-align: center;
+}
+
+header p{
+     
+     font-size: 6em;
+     padding-top: 200px;
+     position: fixed;
+     right:0;
+     left:0;
+     margin-right: auto;
+     width: 75%;
+     z-index: -1;
+     color: #222930;
+     font-family: 'Comic Sans MS', sans-serif;
+      
+       
+}
+
+/******lead about section******/
+
+.lead {
+  
+    font-size: 2 em;
+    background-color: #DDDDDD;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #222930;
+    z-index: -1;
+  
+/******social links******/
+  
+  aside {
+    background-color: #DDDDDD;
+    opacity: 0.9;
+     
+  }
+/*************************** 
+  #social {
+    
+    float: right;
+    position: fixed;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    max-width: 20%;
+    max-height: 60%;
+    padding:10px;
+    padding-bottom: 30px;
+    z-index: 3;
+  } 
+
+#social h2{
+    display: inline-block;
+    color: black;
+    font-size: .75em;
+    
+  }
+
+.social-links {
+    margin:0 ;
+    padding-left: 0;
+    list-style: none;
+    
+  }
+
+.social-links li {
+    list-style-type: none;
+    margin: 0;
+    padding: .5px;
+    padding-top: 5px;
+    overflow: hidden;
+  }
+  
+  .social-links li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+***********************/
+  
+  .subtitle {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 100%;
     background-color: #6495ED;
+    color: white;
     height: 50px;
-    width:  250px;
-    padding 75px;
-    border-bottom: 0.2rem outset #222930;
-    border-radius: .25rem;
+    width:  275px;
+    padding: 8px;
+    margin-top: 25px;
     position: absolute;
     top: 200px;
     left: 0;
-  
+    
 }
   
 
-.main-nav {
-    background-color: #6495ED;
-    height: 50px;
-    width:  175px;
-    padding 75px;
-    border: 0.2rem solid #222930;
-    border-radius: 1rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
+    
+    
+    
+    
+}
+/**
 .lead {
     font-size: 125%;
     background-color: #DDDDDD;
@@ -101,44 +177,168 @@ p.subtitle {
 }
 
 
-.weybec-people img{
-      
-      width: 300px;
-      height: 300px; 
-      margin-top: 5rem;
-      margin-left: 50px;
-      border: 0.2rem solid #222930;
-}
-  
-.weybec-people p{
-  
-    font-size: 125%;
-    background-color: #DDDDDD;
-    color: #222930;
-    height: 100px;
-    width:  1000px;
-    padding 75px;
-    border: 0.2rem solid #222930;
-    border-radius: 1rem;
-    margin: 25px;
-  
-}
-    
-  
-   
-  
-
+*/  
 #social {
     background: #DDDDDD;
     position: absolute;
     top: 50px;
     right: 0px;
-    width: 50px;
+    width: 85px;
     transition: 1s width;
     padding 25px;
     border: 0.2rem solid #222930;
     border-radius: 1rem;
+    text-align: center;
+    z-index: 3;
 }
+
+/********weybec creators*******/
+
+#about {
+  background-color: #00757b;
+  padding: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #f5f6fd;
+}
+
+#about h2 {
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  font-size: 2em;
+}
+#about p {
+  font-size: 1em;
+}
+
+#about p a {
+  color: #f5f6fd;
+}
+
+#about a:hover {
+  color:#FF2300;
+  text-decoration: underline;
+}
+
+#about img {
+  margin:0 auto; 
+  text-align:center;
+  display:table;
+  padding: 0;
+}
+
+.weybec-people {
+  margin:0 auto; 
+  text-align:center;
+  display:table;
+  padding: 0;
+}
+/******
+.weybec-people li p:nth-child(odd) {
+  color: black;
+}
+.weybec-people li p:nth-child(even) {
+  color: #FF2300;
+}
+*****/
+.weybec-people li {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.weybec-people img {
+  max-width: 200px;
+}
+
+.weybec-people li {
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.0;
+}
+
+
+/*******footer********/
+
+footer { 
+    background-color: black;
+    color: #222930;
+    padding-top: 30px;
+    padding-botton: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer p{
+    text-align: center;
+    color: #222930;
+    bottom: 0;
+    font-size: .75em;
+}
+
+footer p a{
+    color: #222930;
+  
+  
+footer .main-nav{
+  
+    margin:0 auto;
+    text-align: center;
+    display: table;
+    padding: 0;
+    text-transform: uppercase;
+    
+}
+
+
+
+/******** listen ********/
+#listen {
+  background-color: #00a8b0;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin-top: -5px;
+  color: white;
+  text-align: center;
+}
+
+#listen h2 {
+  font-size: 1.5em;
+  color: #f5f6fd;
+}
+
+#listen p {
+  font-size: .75em;
+}
+#listen a {
+  text-decoration: none;
+  color: #f5f6fd;
+  font-size: .75em;
+  padding: 20px;
+}
+#listen a:hover {
+  background-color: white;
+  text-decoration:none;
+  color:#FF2300;
+}
+
+/***** download buttons *******/
+.download-button {
+  background-color: #FF2300;
+  opacity: .8;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  margin: 5px auto;
+  width: 100px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+
+/***********
 #social:hover {
     width: 250px;
   
@@ -152,6 +352,7 @@ p.subtitle {
     padding: 0;
     
 }
+/******
 
 a:link {
       color: #8FBC8F;
