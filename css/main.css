@@ -201,6 +201,23 @@ header p{
     line-height: 1.0;
 }
 
+/*******listen********/
+
+
+#listen h2 {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 2em;
+}
+
+/*******watch*********/
+
+
+#watch h2 {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-size: 2em;
+}
 
 /*******footer********/
 
